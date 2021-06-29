@@ -1,0 +1,60 @@
+
+footer{
+    color: darkslategrey;
+    border-top: 1px solid #eeeeee;
+    font-family: 'Bell MT';
+    margin-top:16px;
+    margin: 16px;
+    padding: 16px;
+}
+
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom:16px;
+}
+
+header a {
+    color:steelblue;
+    margin-right: 16px;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+body {
+    color: darkslateblue;
+    font-family: 'Bell MT';
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+}
+
+.main-content{
+    flex-grow:1;
+}
+
+.portrait {
+    width: 300px;
+    align-content: center;
+}
+
+input{
+    border:1px solid #cccccc;
+    padding:8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
