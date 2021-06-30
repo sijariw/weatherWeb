@@ -6,7 +6,7 @@ const forecast = require('./utils/forecast.js')
 //nodemon app.js -e js,hbs
 //here
 const app = express()
-
+const port = process.env.PORT || 3000
 //Path Definition
 const publicJoin = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../templates/views')
@@ -92,6 +92,6 @@ app.get('*', (req, res) => {
     })
 })
 
-app.listen(3000, () => {
-    console.log('Server is up')
+app.listen(port, () => {
+    console.log('Server is up on '+port)
 })
